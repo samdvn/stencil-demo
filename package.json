@@ -1,0 +1,28 @@
+{
+  "name": "stencil-starter-project-name",
+  "version": "0.0.1",
+  "description": "Stencil Component Starter",
+  "module": "dist/esm/index.js",
+  "main": "dist/mycomponent.js",
+  "unpkg": "dist/mycomponent.js",
+  "types": "dist/types/components.d.ts",
+  "collection": "dist/collection/collection-manifest.json",
+  "files": [
+    "dist/"
+  ],
+  "browser": "dist/mycomponent.js",
+  "scripts": {
+    "build": "stencil build --docs",
+    "start": "stencil build --dev --watch --serve",
+    "test": "stencil test --spec --e2e",
+    "test.watch": "stencil test --spec --e2e --watchAll"
+  },
+  "dependencies": {
+    "@stencil/router": "^0.3.3"
+  },
+  "devDependencies": {
+    "@stencil/core": "^0.17.0"
+  },
+  "author": "samarjit",
+  "license": "MIT"
+}
